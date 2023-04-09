@@ -43,7 +43,7 @@ async function createWindow() {
 
     await rendererProcessWindow_remote.loadFile(pathToHTMLFile_userWindow);
 
-    rendererProcessWindow_remote.webContents.openDevTools();
+    // rendererProcessWindow_remote.webContents.openDevTools();
 }
 
 
